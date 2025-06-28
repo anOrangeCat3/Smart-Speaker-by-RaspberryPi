@@ -1,5 +1,37 @@
 # A Smart Speaker Based on Raspberry Pi
 
+English | [简体中文](README_CN.md) | 
+
+**_2022.10~2023.1_**
+
+_Team Project of 2 members_
+
+**_Discription of project:_** 
+This is a project for the Microcomputer Principles course. We used a Raspberry Pi as a development board and, based on it, connected various hardware components to develop a smart speaker. We mainly accomplished the following functions:
+- Implemented a **wake-up function** using the Wukong open-source project.
+- Integrated Baidu Intelligent Cloud API for voice recognition and synthesis, enabling **voice interactions**.
+- Utilized web scraping to fetch weather information for **voice weather reports**.
+- Integrated with the Turing Robot, enabling **basic conversations** (at that time, ChatGPT had not yet been released).
+- Connected various hardware components and established a communication network for **smart home control**, such as voice-controlled light switches and remote control of air conditioning and so on.
+**_Individual contribution:_** 
+Completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
+
+The following image shows a physical representation of the voice interaction component (left) and the system diagram (right):
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/45a4b741-42db-4953-b83c-d8d44e5561a9" width="31%" height="31%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c6c27131-5520-4af8-a51e-7ec29d0a8496" width="27%" height="27%"/>
+</div>
+
+The following images depict the physical components of the smart home section (left and center) and the system diagram (right):
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/d28cf865-8e07-4ad6-82dd-a178dae5e6db" width="26%" height="26%" />
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/70992164-7c35-4ffb-a6ff-266bcd2ee28c" width="15%" height="15%"/>
+   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c463842a-6c0b-4b7f-81fd-25363f971efe" width="35%" height="35%"/>
+</div>
+
+
 In this project, I developed a Raspberry Pi-based microsystem inspired by smart voice assistants. I completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
 
 **video link:**
@@ -34,13 +66,6 @@ bilibili: https://www.bilibili.com/video/BV1WC4y157by
 - Infrared device control
 - Indoor temperature and humidity query
 - Mobile control of home devices
-
-
-
-
-
-
-
 
 **_Throughout the entire project process, there are some points:_**
 
@@ -125,6 +150,14 @@ This approach highlights the architecture of edge-cloud computing, showcasing th
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/61792e10-50d5-47d0-97ed-899e03825490" width="45%" height="45%" />
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/1740ab2f-bc60-49a1-be60-1c60104ec86d" width="45%" height="45%" />
 </div>
+
+
+
+
+
+
+
+
 
 
 
